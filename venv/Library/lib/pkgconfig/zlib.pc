@@ -1,0 +1,13 @@
+prefix=C:/Users/kjaya/projects/langgraphproject/venv/Library
+exec_prefix=C:/Users/kjaya/projects/langgraphproject/venv/Library
+libdir=C:/Users/kjaya/projects/langgraphproject/venv/Library/lib
+sharedlibdir=C:/Users/kjaya/projects/langgraphproject/venv/Library/lib
+includedir=C:/Users/kjaya/projects/langgraphproject/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
